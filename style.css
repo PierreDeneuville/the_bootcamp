@@ -1,0 +1,42 @@
+/* style.css */
+body{
+  /*background: rgb(240, 240 , 240);*/
+  background-image: url(../landing/images/furniture.jpg);
+  color: rgb(82, 82, 82);
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Kaisei HarunoUmi', serif;;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(97, 160, 175);
+  font-size: 50px;
+
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color:  rgb(97, 160, 175);
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/*custom design*/
+
+.desk_img {
+	width: 300px;
+  height: auto;
+	padding: 30px;
+}
+
+.screenshot{
+  width: 1200px;
+  height: auto;
+  padding: 10px;
+}
