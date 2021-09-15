@@ -34,6 +34,17 @@ a:hover {
 
 /*custom design*/
 
+.desk_card {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(97, 160, 175);
+    font-size: 25px;
+    background-color: rgb(50, 50, 50);
+    
+}
+
+
 .desk_img {
     width: 300px;
     height: auto;
