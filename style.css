@@ -9,6 +9,21 @@ body {
     ;
 }
 
+header {
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+}
+header h1{
+    font-family: helvetica;
+    color: rgba(240, 240, 240, 0.9);
+
+
+}
+header p{
+    font-family: arial;
+    color: gold;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: rgb(97, 160, 175);
