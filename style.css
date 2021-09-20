@@ -45,7 +45,7 @@ a:hover {
     color: black;
 }
 
-nav{}
+nav{} /* Empty section selectors for further customisation*/
 main{}
 section{}
 article{}
