@@ -12,6 +12,9 @@ body {
 header {
     background-color: rgb(50, 50, 50);
     text-align: center;
+    /*
+    position: fixed;    >>> So that header will remain while scroll down...But some width/height customisation is needed first...
+    */
 }
 header h1{
     font-family: helvetica;
@@ -45,7 +48,17 @@ a:hover {
     color: black;
 }
 
-nav{} /* Empty section selectors for further customisation*/
+nav {}
+
+/* Empty section selectors for further customisation*/
+nav li {
+    display: inline-block;
+   /* 
+    text-align: left;
+    position: relative;     [!ISSUE] Why the f*** can't I have those link stick to the left? [!ISSUE]
+    left: 0px; 
+    */
+}
 main{}
 section{}
 article{}
@@ -60,6 +73,7 @@ footer{}
     color: rgb(97, 160, 175);
     font-size: 25px;
     background-color: rgb(50, 50, 50);
+    display: inline-block;
     
 }
 
